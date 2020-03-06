@@ -1,0 +1,29 @@
+﻿/********wrapper*************/
+
+body {
+    font-family: "SimHei"
+}
+
+#wrapper {
+    width: 100%;
+    font-size: 12px;
+}
+/***********header************/
+#top{
+    background:#000;
+    height:22px;
+}
+
+#header-nav {
+    height:90px;
+    background:#505050;
+}
+
+#footerbar{
+    min-height:50px;
+    background-color:#000;
+}
+#footer {
+    min-height: 200px;
+    background: #505050;
+}

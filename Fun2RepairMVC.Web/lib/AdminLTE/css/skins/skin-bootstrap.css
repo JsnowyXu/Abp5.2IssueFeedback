@@ -1,0 +1,151 @@
+/*
+ * Skin: bootstrap
+ * ------------
+ */
+.skin-bootstrap .main-header .navbar {
+  background-color: #605ca8;
+}
+.skin-bootstrap .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-bootstrap .main-header .navbar .nav > li > a:hover,
+.skin-bootstrap .main-header .navbar .nav > li > a:active,
+.skin-bootstrap .main-header .navbar .nav > li > a:focus,
+.skin-bootstrap .main-header .navbar .nav .open > a,
+.skin-bootstrap .main-header .navbar .nav .open > a:hover,
+.skin-bootstrap .main-header .navbar .nav .open > a:focus,
+.skin-bootstrap .main-header .navbar .nav > .active > a {
+  background: #575398;
+  color: #f6f6f6;
+}
+.skin-bootstrap .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-bootstrap .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: #575398;
+}
+.skin-bootstrap .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-bootstrap .main-header .navbar .sidebar-toggle:hover {
+  background-color: #555299;
+}
+@media (max-width: 767px) {
+  .skin-bootstrap .main-header .navbar .dropdown-menu li.divider {
+    background-color: #575398;
+  }
+  .skin-bootstrap .main-header .navbar .dropdown-menu li a {
+    color: #575398;
+  }
+  .skin-bootstrap .main-header .navbar .dropdown-menu li a:hover {
+    background: #555299;
+    color: #fff;
+  }
+}
+.skin-bootstrap .main-header .logo {
+  background-color: #555299;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-bootstrap .main-header .logo:hover {
+  background-color: #545096;
+
+}
+
+.skin-bootstrap .main-header li.user-header {
+  background-color: #605ca8;
+}
+.skin-bootstrap .content-header {
+  background: transparent;
+}
+.skin-bootstrap .wrapper,
+.skin-bootstrap .main-sidebar,
+.skin-bootstrap .left-side {
+  background-color: #222d32;
+}
+.skin-bootstrap .user-panel > .info,
+.skin-bootstrap .user-panel > .info > a {
+  color: #fff;
+}
+.skin-bootstrap .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-bootstrap .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-bootstrap .sidebar-menu > li:hover > a,
+.skin-bootstrap .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #605ca8;
+}
+.skin-bootstrap .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-bootstrap .sidebar a {
+  color: #b8c7ce;
+}
+.skin-bootstrap .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-bootstrap .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-bootstrap .treeview-menu > li.active > a,
+.skin-bootstrap .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-bootstrap .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-bootstrap .sidebar-form input[type="text"],
+.skin-bootstrap .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-bootstrap .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-bootstrap .sidebar-form input[type="text"]:focus,
+.skin-bootstrap .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-bootstrap .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-bootstrap .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-bootstrap .table-bordered {
+    border: 1px solid #CCCCCC;
+}
+.skin-bootstrap .table-bordered>thead>tr>th, 
+.skin-bootstrap .table-bordered>tbody>tr>th, 
+.skin-bootstrap .table-bordered>tfoot>tr>th, 
+.skin-bootstrap .table-bordered>thead>tr>td, 
+.skin-bootstrap .table-bordered>tbody>tr>td, 
+.skin-bootstrap .table-bordered>tfoot>tr>td {
+    border: 1px solid #CCCCCC;
+}
+.page-on-load {
+  background: #EEEEEE;
+}
+.skin-bootstrap .page-spinner-bar > div {
+  background: #3276B1;
+}

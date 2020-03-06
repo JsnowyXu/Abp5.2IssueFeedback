@@ -1,0 +1,237 @@
+/*
+ * Skin: metroblack
+ * -----------
+ */
+.skin-metroblack .main-header .navbar {
+  background-color: #393939;
+}
+.skin-metroblack .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-metroblack .main-header .navbar .nav > li > a:hover,
+.skin-metroblack .main-header .navbar .nav > li > a:active,
+.skin-metroblack .main-header .navbar .nav > li > a:focus,
+.skin-metroblack .main-header .navbar .nav .open > a,
+.skin-metroblack .main-header .navbar .nav .open > a:hover,
+.skin-metroblack .main-header .navbar .nav .open > a:focus,
+.skin-metroblack .main-header .navbar .nav > .active > a {
+  background: #00ABA9;
+  color: #f6f6f6;
+}
+.skin-metroblack .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-metroblack .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: #00ABA9;
+}
+.skin-metroblack .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-metroblack .main-header .navbar .sidebar-toggle:hover {
+  background-color: #00ABA9;
+}
+@media (max-width: 767px) {
+  .skin-metroblack .main-header .navbar .dropdown-menu li.divider {
+    background-color: #00ABA9;
+  }
+  .skin-metroblack .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-metroblack .main-header .navbar .dropdown-menu li a:hover {
+    background: #00ABA9;
+  }
+}
+.skin-metroblack .main-header .logo {
+  background-color: #393939;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-metroblack .main-header .logo:hover {
+  background-color: #00ABA9;
+}
+.skin-metroblack .main-header li.user-header {
+  background-color: #393939;
+}
+.skin-metroblack .content-header {
+  background: transparent;
+}
+.skin-metroblack .wrapper,
+.skin-metroblack .main-sidebar,
+.skin-metroblack .left-side {
+  background-color: #1B1B1B;
+}
+.skin-metroblack .user-panel > .info,
+.skin-metroblack .user-panel > .info > a {
+  color: #fff;
+}
+.skin-metroblack .sidebar-menu > li.header {
+  color: #999;
+  background: #222222;
+}
+.skin-metroblack .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-metroblack .sidebar-menu > li:hover > a{
+  color: #ffffff;
+  background: #00ABA9;
+  border-left-color: #00ABA9;
+}
+.skin-metroblack .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #008886;
+  border-left-color: #008886;
+}
+.skin-metroblack .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #0E0E0E;
+}
+.skin-metroblack .sidebar a {
+  color: #b8c7ce;
+}
+.skin-metroblack .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-metroblack .treeview-menu > li > a {
+  color: #999;
+}
+.skin-metroblack .treeview-menu > li.active > a,
+.skin-metroblack .treeview-menu > li > a:hover {
+  color: #00ABA9;
+}
+.skin-metroblack .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-metroblack .sidebar-form input[type="text"],
+.skin-metroblack .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-metroblack .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-metroblack .sidebar-form input[type="text"]:focus,
+.skin-metroblack .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-metroblack .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-metroblack .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+body {
+      background-color: #0E0E0E;
+      color: #ccc;
+}
+a {
+    color: #616161;
+}
+a:hover {
+    color: #3F51B5;
+}
+.skin-metroblack .content-wrapper,.skin-metroblack  .right-side {
+    min-height: 100%;
+    background-color: #0E0E0E;
+    z-index: 800;
+}
+.skin-metroblack .main-footer {
+    background: #1C1C1C;
+    padding: 15px;
+    color: #999;
+    border-top: 1px solid #444;
+}
+.skin-metroblack .panel {
+    background-color: #1C1C1C;
+    border: 1px solid #4D4D4D;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-radius: 0px;
+}
+.skin-metroblack .panel-footer {
+    background-color: #1C1C1C;
+    border-top: 1px solid #4D4D4D;
+}
+.skin-metroblack .modal {
+    color: #444;
+}
+
+.skin-metroblack .modal .panel {
+    background-color: #fff;
+    border: 1px solid #674C63;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-radius: 0px;
+}
+.skin-metroblack .modal .panel-footer {
+    background-color: #413940;
+    border-top: 1px solid #674C63;
+}
+.skin-metroblack .k-tabstrip-items .k-loading {
+    border-top: 0px solid transparent; 
+}
+.skin-metroblack .k-grid td {
+    border-width: 0 0 1px 1px;
+}
+.k-panelbar .k-tabstrip-items .k-item, .k-tabstrip-items .k-item {
+    border-width: 0px 0px 2px;
+}
+.skin-metroblack .well {
+    background-color: #1C1C1C;
+    border: 1px solid #4D4D4D;
+    border-radius: 0px;
+}
+.skin-metroblack .box {
+    background: #1C1C1C;
+    border-radius: 0px;
+}
+.skin-metroblack .box-header {
+    color: #ccc;
+}
+.skin-metroblack .box-footer {
+    border-top: 1px solid #4D4D4D;
+    background-color: #1C1C1C;
+}
+.skin-metroblack .box-header.with-border {
+    border-bottom: 1px solid #4D4D4D;
+}
+.skin-metroblack .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #1C1C1C;
+}
+.skin-metroblack .table > thead > tr > th, 
+.skin-metroblack .table > tbody > tr > th,
+.skin-metroblack  .table > tfoot > tr > th, 
+.skin-metroblack .table > thead > tr > td,
+.skin-metroblack  .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #4D4D4D;
+}
+.skin-metroblack .form-control {
+    color: #D5D5D5;
+    background-color: #363636;
+    background-image: none;
+    border: 1px solid #616161;
+}
+.skin-metroblack .list-group-item {
+    background-color: #1C1C1C;
+    border: 0px solid #2A2A2A;
+}
+.page-on-load {
+  background: #0E0E0E;
+}
+.skin-metroblack .page-spinner-bar > div {
+  background: #00ABA9;
+}

@@ -1,0 +1,25 @@
+﻿@using Abp.Configuration
+@using Fun2RepairMVC.Configuration
+@{
+    //var logoPath = SettingManager.GetSettingValue(AppSettingNames.WebSiteLogo);
+    //var logoTop = SettingManager.GetSettingValue(AppSettingNames.LogoPositionDown);
+    //var logoRight = SettingManager.GetSettingValue(AppSettingNames.LogoPositionRight);
+    //var WebSiteAddress = SettingManager.GetSettingValue(AppSettingNames.WebSiteAddress);
+}
+<!--top-->
+<div class="wrapper">
+    <div id="top" class="clearfix" >
+        <!--logo-->
+        <div id="logo" class="pull-right clearfix">
+            @*<a href="@WebSiteAddress"><img src="@logoPath" style="margin:@(logoTop)px 0px 0 @(logoRight)px" /></a>*@
+            <a>登錄</a>|<a>註冊</a>
+        </div>
+        <!--logo end-->
+        <!--language Selection-->
+        <div id="lang" class="hidden-xs">
+           @*@Html.Action("LanguageSelection", "RootLayout")*@
+        </div>
+    <!--language Selection end-->
+        </div>
+</div>
+<!--top end-->

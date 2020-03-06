@@ -1,0 +1,169 @@
+/*
+ * Skin: flat
+ * -----------
+ */
+.skin-flat {
+    color: #333;
+    background-color: #fff;
+}
+.skin-flat .content-wrapper, .skin-flat .right-side {
+    background-color: #fff;
+}
+.skin-flat .main-footer {
+    background: #F5F5F5;
+    color: #999;
+    border-top: 1px solid #ccc;
+}
+.skin-flat .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #10C4B2;
+}
+.skin-flat .form-control:focus {
+  border-color: #10C4B2;
+  box-shadow: none;
+}
+.skin-flat .nav-tabs-custom > .nav-tabs > li.active {
+    border-top-color: #10C4B2;
+}
+.skin-flat .main-header .navbar {
+  background-color: #363940;
+}
+.skin-flat .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-flat .main-header .navbar .nav > li > a:hover,
+.skin-flat .main-header .navbar .nav > li > a:active,
+.skin-flat .main-header .navbar .nav > li > a:focus,
+.skin-flat .main-header .navbar .nav .open > a,
+.skin-flat .main-header .navbar .nav .open > a:hover,
+.skin-flat .main-header .navbar .nav .open > a:focus,
+.skin-flat .main-header .navbar .nav > .active > a {
+  background: #10C4B2;
+  color: #f6f6f6;
+}
+.skin-flat .main-header .navbar .sidebar-toggle {
+  color: #10C4B2;
+}
+.skin-flat .main-header .navbar .sidebar-toggle:hover {
+  color: #000;
+  background: #10C4B2;
+}
+.skin-flat .main-header .navbar .sidebar-toggle {
+  color: #999;
+}
+.skin-flat .main-header .navbar .sidebar-toggle:hover {
+  background-color: #2EB3A6;
+}
+@media (max-width: 767px) {
+  .skin-flat .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-flat .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-flat .main-header .navbar .dropdown-menu li a:hover {
+    background: #2EB3A6;
+  }
+  .skin-flat .main-header .navbar .dropdown-menu li a {
+    color: #666;
+   }
+}
+
+.skin-flat .main-header .logo {
+  background-color: #10C4B2;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-flat .main-header .logo:hover {
+  background-color: #2EB3A6;
+}
+.skin-flat .main-header li.user-header {
+  background-color: #10C4B2;
+}
+.skin-flat .content-header {
+  background: transparent;
+}
+.skin-flat .wrapper,
+.skin-flat .main-sidebar,
+.skin-flat .left-side {
+  background-color: #222D32;
+}
+.skin-flat .user-panel > .info,
+.skin-flat .user-panel > .info > a {
+  color: #fff;
+}
+.skin-flat .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-flat .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-flat .sidebar-menu > li:hover > a{
+  color: #ffffff;
+  background: #10C4B2;
+  border-left-color: #10C4B2;
+}
+.skin-flat .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #0FB1A1;
+  border-left-color: #0FB1A1;
+}
+.skin-flat .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-flat .sidebar a {
+  color: #b8c7ce;
+}
+.skin-flat .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-flat .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-flat .treeview-menu > li.active > a,
+.skin-flat .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-flat .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-flat .sidebar-form input[type="text"],
+.skin-flat .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-flat .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-flat .sidebar-form input[type="text"]:focus,
+.skin-flat .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-flat .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-flat .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.page-on-load {
+  background: #EEEEEE;
+}
+.skin-flat .page-spinner-bar > div {
+  background: #10C4B2;
+}

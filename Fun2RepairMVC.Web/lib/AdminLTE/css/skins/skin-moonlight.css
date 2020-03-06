@@ -1,0 +1,247 @@
+/*
+ * Skin: moonlight
+ * ------------
+ */
+.skin-moonlight .main-header .navbar {
+  background-color: #4C5966;
+}
+.skin-moonlight .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-moonlight .main-header .navbar .nav > li > a:hover,
+.skin-moonlight .main-header .navbar .nav > li > a:active,
+.skin-moonlight .main-header .navbar .nav > li > a:focus,
+.skin-moonlight .main-header .navbar .nav .open > a,
+.skin-moonlight .main-header .navbar .nav .open > a:hover,
+.skin-moonlight .main-header .navbar .nav .open > a:focus,
+.skin-moonlight .main-header .navbar .nav > .active > a {
+  background: #EE9F05;
+  color: #f6f6f6;
+}
+.skin-moonlight .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-moonlight .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: #EE9F05;
+}
+.skin-moonlight .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-moonlight .main-header .navbar .sidebar-toggle:hover {
+  background-color: #EE9F05;
+}
+@media (max-width: 767px) {
+  .skin-moonlight .main-header .navbar .dropdown-menu li.divider {
+    background-color:#EE9F05;
+  }
+  .skin-moonlight .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-moonlight .main-header .navbar .dropdown-menu li a:hover {
+    background: #EE9F05;
+  }
+}
+.skin-moonlight .main-header .logo {
+  background-color: #4C5966;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-moonlight .main-header .logo:hover {
+  background-color: #EE9F05;
+}
+.skin-moonlight .main-header li.user-header {
+  background-color: #4C5966;
+}
+.skin-moonlight .content-header {
+  background: transparent;
+}
+.skin-moonlight .wrapper,
+.skin-moonlight .main-sidebar,
+.skin-moonlight .left-side {
+  background-color: #212A33;
+}
+.skin-moonlight .user-panel > .info,
+.skin-moonlight .user-panel > .info > a {
+  color: #fff;
+}
+.skin-moonlight .sidebar-menu > li.header {
+  color: #999;
+  background: #293540;
+}
+.skin-moonlight .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-moonlight .sidebar-menu > li:hover > a{
+  color: #ccc;
+  background: #4C5966;
+  border-left-color: #E69E08;
+}
+.skin-moonlight .sidebar-menu > li.active > a {
+  color: #ccc;
+  background: #3B3F49;
+  border-left-color: #EE9F05;
+}
+.skin-moonlight .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #1e282c;
+}
+.skin-moonlight .sidebar a {
+  color: #ddd;
+}
+.skin-moonlight .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-moonlight .treeview-menu > li > a {
+  color: #ddd;
+}
+.skin-moonlight .treeview-menu > li.active > a,
+.skin-moonlight .treeview-menu > li > a:hover {
+  color: #EE9F05;
+}
+.skin-moonlight .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-moonlight .sidebar-form input[type="text"],
+.skin-moonlight .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-moonlight .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-moonlight .sidebar-form input[type="text"]:focus,
+.skin-moonlight .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-moonlight .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-moonlight .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+body {
+      background-color: #414550;
+      color: #ccc;
+}
+a {
+    color: #999;
+}
+a:hover {
+    color: #EE9F05;
+}
+.skin-moonlight .content-wrapper,.skin-moonlight  .right-side {
+    min-height: 100%;
+    background-color: #414550;
+    z-index: 800;
+}
+.skin-moonlight .main-footer {
+    background: #3B3F49;
+    padding: 15px;
+    color: #999;
+    border-top: 1px solid #232D36;
+}
+.skin-moonlight .panel {
+    background-color: #3B3F49;
+    border: 1px solid #232D36;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.skin-moonlight .panel-footer {
+    background-color: #3B3F49;
+    border-top: 1px solid #232D36;
+}
+.skin-moonlight .modal {
+    color: #444;
+}
+
+.skin-moonlight .modal .panel {
+    background-color: #fff;
+    border: 1px solid #232D36;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.skin-moonlight .modal .panel-footer {
+    background-color: #413940;
+    border-top: 1px solid #232D36;
+}
+.skin-moonlight .k-tabstrip-items .k-loading {
+    border-top: 0px solid transparent; 
+}
+.skin-moonlight .k-grid td {
+    border-width: 0 0 1px 1px;
+}
+.k-panelbar .k-tabstrip-items .k-item, .k-tabstrip-items .k-item {
+    border-width: 0px 0px 2px;
+}
+.skin-moonlight .well {
+    background-color: #3B3F49;
+    border: 1px solid #232D36;
+}
+.skin-moonlight .modal .box {
+    background-color: #fff;
+    color: #444;
+}
+.skin-moonlight .modal .box-header {
+    color: #3B3F49;
+}
+.skin-moonlight  .modal .box-footer {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+.skin-moonlight  .modal .box-header.with-border {
+    border-bottom: 1px solid #ccc;
+}
+.skin-moonlight .box {
+    background: #3B3F49;
+}
+.skin-moonlight .box-header {
+    color: #ccc;
+}
+.skin-moonlight .box-footer {
+    border-top: 1px solid #232D36;
+    background-color: #3B3F49;
+}
+.skin-moonlight .box-header.with-border {
+    border-bottom: 1px solid #232D36;
+}
+.skin-moonlight .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #3B3F49;
+}
+.skin-moonlight .table > thead > tr > th, 
+.skin-moonlight .table > tbody > tr > th,
+.skin-moonlight  .table > tfoot > tr > th, 
+.skin-moonlight .table > thead > tr > td,
+.skin-moonlight  .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #232D36;
+}
+.skin-moonlight .form-control {
+    color: #D5D5D5;
+    background-color: #212A33;
+    background-image: none;
+    border: 1px solid #232D36;
+}
+.skin-moonlight .list-group-item {
+    background-color: #3B3F49;
+    border: 0px solid #2A2A2A;
+}
+.page-on-load {
+  background: #414550;
+}
+.skin-moonlight .page-spinner-bar > div {
+  background: #EE9F05;
+}
