@@ -62,7 +62,7 @@ namespace Fun2RepairMVC.Authorization
                                new MenuItemDefinition(
                                PermissionNames.System_Parameters,
                                L(PermissionNames.System_Parameters),
-                               url: "sysadmin/System/roles",
+                               url: "sysadmin/System/Parameters",
                                icon: "business",
                                permissionDependency: new SimplePermissionDependency(PermissionNames.System_Parameters)
                                 )

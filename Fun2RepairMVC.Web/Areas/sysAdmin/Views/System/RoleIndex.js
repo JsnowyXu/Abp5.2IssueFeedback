@@ -24,7 +24,7 @@
 
             e.preventDefault();
             abp.ajax({
-                url: abp.appPath + 'Roles/EditRoleModal?roleId=' + roleId,
+                url: abp.appPath + 'sysAdmin/System/Roles/EditRoleModal?roleId=' + roleId,
                 type: 'POST',
                 dataType: 'html',
                 success: function (content) {

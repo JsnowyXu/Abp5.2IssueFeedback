@@ -2968,3 +2968,782 @@ WARN  2020-03-07 09:22:47,097 [14   ] naries.DictionaryBasedLocalizationSource -
 DEBUG 2020-03-07 09:22:47,878 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ab839f54-ec81-474a-8474-13956e9e0b09","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:22:47.8706311+08:00","Properties":{}}
 DEBUG 2020-03-07 09:22:47,919 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ab839f54-ec81-474a-8474-13956e9e0b09
 DEBUG 2020-03-07 09:22:50,839 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ab839f54-ec81-474a-8474-13956e9e0b09
+DEBUG 2020-03-07 09:37:07,167 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-07 09:37:07,187 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-03-07 09:37:07,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Web.Fun2RepairMVCWebModule, Fun2RepairMVC.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCDataModule, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCCoreModule, Fun2RepairMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCApplicationModule, Fun2RepairMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Api.Fun2RepairMVCWebApiModule, Fun2RepairMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:07,206 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-03-07 09:37:07,571 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:37:07,571 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:37:07,571 [1    ] o.Configuration.LanguageManagementConfig - Converted Fun2RepairMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:37:07,571 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:37:08,147 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Fun2RepairMVC.EntityFramework.Fun2RepairMVCDbContext, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:37:11,872 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-07 09:37:12,012 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-07 09:37:12,087 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-07 09:37:12,130 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Fun2RepairMVC
+DEBUG 2020-03-07 09:37:12,183 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-07 09:37:12,424 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-07 09:37:12,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 38 classes define auto mapping attributes
+DEBUG 2020-03-07 09:37:12,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-07 09:37:12,530 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-07 09:37:12,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.CreateUserDto
+DEBUG 2020-03-07 09:37:12,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UpdateUserDto
+DEBUG 2020-03-07 09:37:12,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UserDto
+DEBUG 2020-03-07 09:37:12,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Roles.Dto.PermissionDto
+DEBUG 2020-03-07 09:37:12,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-07 09:37:12,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-03-07 09:37:12,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.TenantDto
+DEBUG 2020-03-07 09:37:12,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupListDto
+DEBUG 2020-03-07 09:37:12,534 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupTranslationDto
+DEBUG 2020-03-07 09:37:12,534 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionDto
+DEBUG 2020-03-07 09:37:12,534 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionListDto
+DEBUG 2020-03-07 09:37:12,534 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionTranslationDto
+DEBUG 2020-03-07 09:37:12,534 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterDto
+DEBUG 2020-03-07 09:37:12,535 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterListDto
+DEBUG 2020-03-07 09:37:12,535 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterTranslationDto
+DEBUG 2020-03-07 09:37:12,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleDto
+DEBUG 2020-03-07 09:37:12,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleTranslationDto
+DEBUG 2020-03-07 09:37:12,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityDto
+DEBUG 2020-03-07 09:37:12,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityListDto
+DEBUG 2020-03-07 09:37:12,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityTranslationDto
+DEBUG 2020-03-07 09:37:12,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationDto
+DEBUG 2020-03-07 09:37:12,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationListDto
+DEBUG 2020-03-07 09:37:12,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationTranslationDto
+DEBUG 2020-03-07 09:37:12,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterDto
+DEBUG 2020-03-07 09:37:12,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterListDto
+DEBUG 2020-03-07 09:37:12,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterTranslationDto
+DEBUG 2020-03-07 09:37:12,539 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceDto
+DEBUG 2020-03-07 09:37:12,539 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceListDto
+DEBUG 2020-03-07 09:37:12,539 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceTranslationDto
+DEBUG 2020-03-07 09:37:12,539 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownDto
+DEBUG 2020-03-07 09:37:12,540 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownListDto
+DEBUG 2020-03-07 09:37:12,540 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarDto
+DEBUG 2020-03-07 09:37:12,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarListDto
+DEBUG 2020-03-07 09:37:12,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarTranslationDto
+DEBUG 2020-03-07 09:37:12,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantChangeViewModel
+DEBUG 2020-03-07 09:37:12,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-03-07 09:37:16,527 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-03-07 09:37:16,529 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-03-07 09:37:16,531 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-03-07 09:37:16,532 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-03-07 09:37:16,534 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-03-07 09:37:16,538 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2020-03-07 09:37:33,932 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:37:33,939 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:37:33,941 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:37:33,944 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:39,794 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:39,795 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:39,795 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:39,795 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:39,796 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:39,809 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,352 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,353 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,353 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,353 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,353 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,354 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,467 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,470 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,470 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:44,471 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:53,530 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:53,550 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:53,553 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:53,554 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:53,555 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:54,088 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:54,092 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:54,093 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:39:54,093 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:39:54,816 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7a8246fe-4ee4-4083-9615-4285834217ee","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:39:54.8082513+08:00","Properties":{}}
+DEBUG 2020-03-07 09:39:54,856 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7a8246fe-4ee4-4083-9615-4285834217ee
+WARN  2020-03-07 09:40:00,798 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,799 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,799 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,799 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,802 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,802 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,802 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewTenant' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,802 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,803 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,803 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'DatabaseConnectionString' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,803 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Optional' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,803 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminEmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,803 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,804 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'DefaultPasswordIs' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,804 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,805 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,872 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,882 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,885 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,885 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:00,886 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+ERROR 2020-03-07 09:40:00,979 [18   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Views/Tenants/Index.js! System.NullReferenceException: 未??象引用?置到?象的?例。
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+DEBUG 2020-03-07 09:40:01,012 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7a8246fe-4ee4-4083-9615-4285834217ee
+WARN  2020-03-07 09:40:01,064 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:01,068 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:01,068 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:40:01,069 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:40:01,481 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"909eec0b-742b-4f80-94cf-53d4de36f18a","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:40:01.4811743+08:00","Properties":{}}
+DEBUG 2020-03-07 09:40:01,487 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 909eec0b-742b-4f80-94cf-53d4de36f18a
+DEBUG 2020-03-07 09:40:07,587 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 909eec0b-742b-4f80-94cf-53d4de36f18a
+DEBUG 2020-03-07 09:40:25,985 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f14404bd-96ae-48bc-a505-857f0108d968","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:40:25.9857263+08:00","Properties":{}}
+DEBUG 2020-03-07 09:40:25,994 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f14404bd-96ae-48bc-a505-857f0108d968
+WARN  2020-03-07 09:40:27,624 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System_Roles' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:40:28,229 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f14404bd-96ae-48bc-a505-857f0108d968
+DEBUG 2020-03-07 09:40:34,754 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a84b87ab-a72e-4913-b55e-fb5f59baf300","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:40:34.7541991+08:00","Properties":{}}
+DEBUG 2020-03-07 09:40:34,761 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a84b87ab-a72e-4913-b55e-fb5f59baf300
+WARN  2020-03-07 09:40:47,105 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'System_Roles' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:40:47,582 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a84b87ab-a72e-4913-b55e-fb5f59baf300
+DEBUG 2020-03-07 09:40:58,417 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a71ab974-7a55-44c1-9dec-36cf3851e48d","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:40:58.4170938+08:00","Properties":{}}
+DEBUG 2020-03-07 09:40:58,423 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a71ab974-7a55-44c1-9dec-36cf3851e48d
+DEBUG 2020-03-07 09:45:07,525 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-07 09:45:07,546 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-03-07 09:45:07,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Web.Fun2RepairMVCWebModule, Fun2RepairMVC.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCDataModule, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCCoreModule, Fun2RepairMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCApplicationModule, Fun2RepairMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Api.Fun2RepairMVCWebApiModule, Fun2RepairMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:07,564 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-03-07 09:45:07,898 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:45:07,898 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:45:07,898 [1    ] o.Configuration.LanguageManagementConfig - Converted Fun2RepairMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:45:07,898 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:45:08,368 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Fun2RepairMVC.EntityFramework.Fun2RepairMVCDbContext, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:45:11,683 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-07 09:45:11,809 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-07 09:45:11,876 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-07 09:45:11,910 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Fun2RepairMVC
+DEBUG 2020-03-07 09:45:11,955 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-07 09:45:12,164 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-07 09:45:12,242 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 38 classes define auto mapping attributes
+DEBUG 2020-03-07 09:45:12,242 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-07 09:45:12,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-07 09:45:12,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.CreateUserDto
+DEBUG 2020-03-07 09:45:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UpdateUserDto
+DEBUG 2020-03-07 09:45:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UserDto
+DEBUG 2020-03-07 09:45:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Roles.Dto.PermissionDto
+DEBUG 2020-03-07 09:45:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-07 09:45:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-03-07 09:45:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.TenantDto
+DEBUG 2020-03-07 09:45:12,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupListDto
+DEBUG 2020-03-07 09:45:12,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupTranslationDto
+DEBUG 2020-03-07 09:45:12,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionDto
+DEBUG 2020-03-07 09:45:12,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionListDto
+DEBUG 2020-03-07 09:45:12,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionTranslationDto
+DEBUG 2020-03-07 09:45:12,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterDto
+DEBUG 2020-03-07 09:45:12,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterListDto
+DEBUG 2020-03-07 09:45:12,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterTranslationDto
+DEBUG 2020-03-07 09:45:12,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleDto
+DEBUG 2020-03-07 09:45:12,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleTranslationDto
+DEBUG 2020-03-07 09:45:12,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityDto
+DEBUG 2020-03-07 09:45:12,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityListDto
+DEBUG 2020-03-07 09:45:12,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityTranslationDto
+DEBUG 2020-03-07 09:45:12,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationDto
+DEBUG 2020-03-07 09:45:12,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationListDto
+DEBUG 2020-03-07 09:45:12,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationTranslationDto
+DEBUG 2020-03-07 09:45:12,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterDto
+DEBUG 2020-03-07 09:45:12,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterListDto
+DEBUG 2020-03-07 09:45:12,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterTranslationDto
+DEBUG 2020-03-07 09:45:12,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceDto
+DEBUG 2020-03-07 09:45:12,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceListDto
+DEBUG 2020-03-07 09:45:12,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceTranslationDto
+DEBUG 2020-03-07 09:45:12,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownDto
+DEBUG 2020-03-07 09:45:12,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownListDto
+DEBUG 2020-03-07 09:45:12,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarDto
+DEBUG 2020-03-07 09:45:12,256 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarListDto
+DEBUG 2020-03-07 09:45:12,256 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarTranslationDto
+DEBUG 2020-03-07 09:45:12,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantChangeViewModel
+DEBUG 2020-03-07 09:45:12,257 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-03-07 09:45:15,698 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-03-07 09:45:15,699 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-03-07 09:45:15,700 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-03-07 09:45:15,701 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-03-07 09:45:15,706 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-03-07 09:45:15,707 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2020-03-07 09:45:30,019 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:45:30,025 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:45:30,026 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:45:30,029 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:10,795 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:10,795 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:10,796 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:10,796 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:10,796 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:10,810 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,412 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,413 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,413 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,413 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,413 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,414 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,517 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,520 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,520 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:15,520 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:24,915 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:24,931 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:24,933 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:24,934 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:24,935 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:25,351 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:25,355 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:25,355 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:25,356 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:47:26,022 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dcd0e515-6bee-48ee-81a7-7eff916cc2b2","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:47:26.0141643+08:00","Properties":{}}
+DEBUG 2020-03-07 09:47:26,061 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dcd0e515-6bee-48ee-81a7-7eff916cc2b2
+WARN  2020-03-07 09:47:33,488 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:33,498 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:33,501 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:33,501 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:33,502 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:47:33,542 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dcd0e515-6bee-48ee-81a7-7eff916cc2b2
+WARN  2020-03-07 09:47:33,583 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:33,587 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:33,587 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:33,588 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:47:33,993 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5c2467b5-bbbc-4786-9462-76256db79ebe","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:47:33.9938645+08:00","Properties":{}}
+DEBUG 2020-03-07 09:47:34,003 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5c2467b5-bbbc-4786-9462-76256db79ebe
+WARN  2020-03-07 09:47:39,828 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,828 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,828 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,829 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,831 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,831 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,831 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewTenant' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,831 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,832 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,832 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'DatabaseConnectionString' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,832 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Optional' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,832 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminEmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,833 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,833 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'DefaultPasswordIs' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,833 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,834 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,899 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,909 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,912 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,913 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:39,914 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+ERROR 2020-03-07 09:47:40,000 [8    ] Abp.Logging.LogHelper                    - Can not find file for: ~/Views/Tenants/Index.js! System.NullReferenceException: 未??象引用?置到?象的?例。
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+DEBUG 2020-03-07 09:47:40,016 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5c2467b5-bbbc-4786-9462-76256db79ebe
+WARN  2020-03-07 09:47:40,075 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:40,078 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:40,079 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:47:40,079 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:47:40,490 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fe1a0647-21c2-412c-93e2-860873d68792","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:47:40.4906594+08:00","Properties":{}}
+DEBUG 2020-03-07 09:47:40,495 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fe1a0647-21c2-412c-93e2-860873d68792
+WARN  2020-03-07 09:48:03,831 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:03,831 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:03,832 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:03,832 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:03,832 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:03,832 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,386 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,397 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,399 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,400 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,401 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,503 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,506 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,506 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:48:05,506 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:48:05,980 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b8cd7ca3-fe52-42c9-ac10-c15cd1b20680","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:48:05.9803351+08:00","Properties":{}}
+DEBUG 2020-03-07 09:48:05,990 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b8cd7ca3-fe52-42c9-ac10-c15cd1b20680
+DEBUG 2020-03-07 09:48:35,907 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: fe1a0647-21c2-412c-93e2-860873d68792
+DEBUG 2020-03-07 09:49:21,081 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-07 09:49:21,102 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-03-07 09:49:21,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Web.Fun2RepairMVCWebModule, Fun2RepairMVC.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCDataModule, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCCoreModule, Fun2RepairMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCApplicationModule, Fun2RepairMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Api.Fun2RepairMVCWebApiModule, Fun2RepairMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:21,120 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-03-07 09:49:21,460 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:49:21,460 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:49:21,460 [1    ] o.Configuration.LanguageManagementConfig - Converted Fun2RepairMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:49:21,460 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:49:21,948 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Fun2RepairMVC.EntityFramework.Fun2RepairMVCDbContext, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:49:25,413 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-07 09:49:25,546 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-07 09:49:25,614 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-07 09:49:25,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Fun2RepairMVC
+DEBUG 2020-03-07 09:49:25,694 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-07 09:49:25,906 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-07 09:49:25,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 38 classes define auto mapping attributes
+DEBUG 2020-03-07 09:49:25,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-07 09:49:25,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-07 09:49:25,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.CreateUserDto
+DEBUG 2020-03-07 09:49:25,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UpdateUserDto
+DEBUG 2020-03-07 09:49:25,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UserDto
+DEBUG 2020-03-07 09:49:25,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Roles.Dto.PermissionDto
+DEBUG 2020-03-07 09:49:25,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-07 09:49:25,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-03-07 09:49:25,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.TenantDto
+DEBUG 2020-03-07 09:49:25,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupListDto
+DEBUG 2020-03-07 09:49:25,998 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupTranslationDto
+DEBUG 2020-03-07 09:49:25,998 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionDto
+DEBUG 2020-03-07 09:49:25,999 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionListDto
+DEBUG 2020-03-07 09:49:25,999 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionTranslationDto
+DEBUG 2020-03-07 09:49:25,999 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterDto
+DEBUG 2020-03-07 09:49:25,999 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterListDto
+DEBUG 2020-03-07 09:49:25,999 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterTranslationDto
+DEBUG 2020-03-07 09:49:25,999 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleDto
+DEBUG 2020-03-07 09:49:26,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleTranslationDto
+DEBUG 2020-03-07 09:49:26,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityDto
+DEBUG 2020-03-07 09:49:26,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityListDto
+DEBUG 2020-03-07 09:49:26,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityTranslationDto
+DEBUG 2020-03-07 09:49:26,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationDto
+DEBUG 2020-03-07 09:49:26,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationListDto
+DEBUG 2020-03-07 09:49:26,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationTranslationDto
+DEBUG 2020-03-07 09:49:26,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterDto
+DEBUG 2020-03-07 09:49:26,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterListDto
+DEBUG 2020-03-07 09:49:26,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterTranslationDto
+DEBUG 2020-03-07 09:49:26,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceDto
+DEBUG 2020-03-07 09:49:26,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceListDto
+DEBUG 2020-03-07 09:49:26,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceTranslationDto
+DEBUG 2020-03-07 09:49:26,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownDto
+DEBUG 2020-03-07 09:49:26,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownListDto
+DEBUG 2020-03-07 09:49:26,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarDto
+DEBUG 2020-03-07 09:49:26,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarListDto
+DEBUG 2020-03-07 09:49:26,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarTranslationDto
+DEBUG 2020-03-07 09:49:26,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantChangeViewModel
+DEBUG 2020-03-07 09:49:26,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-03-07 09:49:29,746 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-03-07 09:49:29,748 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-03-07 09:49:29,750 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-03-07 09:49:29,751 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-03-07 09:49:29,752 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-03-07 09:49:29,753 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2020-03-07 09:49:44,507 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:49:44,513 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:49:44,515 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:49:44,518 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:03,332 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:03,332 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:03,333 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:03,333 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:03,333 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:03,348 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,375 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,376 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,376 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,376 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,376 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,377 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,485 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,488 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,489 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:08,489 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:18,797 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:18,815 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:18,818 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:18,818 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:18,819 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:19,363 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:19,366 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:19,367 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:19,368 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:50:20,080 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7f8f2021-9d35-4f5d-99c3-9c242f4ed1f5","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:50:20.0717562+08:00","Properties":{}}
+DEBUG 2020-03-07 09:50:20,144 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7f8f2021-9d35-4f5d-99c3-9c242f4ed1f5
+WARN  2020-03-07 09:50:29,486 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,487 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,487 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,487 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,489 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,489 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,489 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewTenant' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,490 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,490 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,490 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'DatabaseConnectionString' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,490 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Optional' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,491 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminEmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,491 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,491 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'DefaultPasswordIs' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,492 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,492 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,560 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,571 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,574 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,575 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,576 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+ERROR 2020-03-07 09:50:29,659 [14   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Views/Tenants/Index.js! System.NullReferenceException: 未??象引用?置到?象的?例。
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+DEBUG 2020-03-07 09:50:29,708 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7f8f2021-9d35-4f5d-99c3-9c242f4ed1f5
+WARN  2020-03-07 09:50:29,747 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,753 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,753 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:29,754 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:50:30,187 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9a425b84-b4be-4dc5-8156-a95323896822","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:50:30.1876846+08:00","Properties":{}}
+DEBUG 2020-03-07 09:50:30,197 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9a425b84-b4be-4dc5-8156-a95323896822
+WARN  2020-03-07 09:50:37,933 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,934 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,934 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,934 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,934 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,935 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,935 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewTenant' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,935 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,935 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,935 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'DatabaseConnectionString' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,936 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Optional' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,936 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminEmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,936 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,936 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'DefaultPasswordIs' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,937 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:37,937 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:38,000 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:38,011 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:38,015 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:38,015 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:38,016 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:50:38,043 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9a425b84-b4be-4dc5-8156-a95323896822
+WARN  2020-03-07 09:50:38,092 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:38,096 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:38,096 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:38,097 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:50:38,500 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"65a2843e-6665-49af-8a53-db3b29b07d1d","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:50:38.5003096+08:00","Properties":{}}
+DEBUG 2020-03-07 09:50:38,505 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 65a2843e-6665-49af-8a53-db3b29b07d1d
+WARN  2020-03-07 09:50:41,088 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,089 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,089 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'FullName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,089 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'EmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,090 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,090 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Actions' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,091 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,091 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,091 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewUser' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,091 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,092 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,092 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Surname' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,092 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'EmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,092 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,092 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,093 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,093 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,094 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,162 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,173 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,176 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,176 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,177 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+ERROR 2020-03-07 09:50:41,205 [10   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Areas/sysAdmin/Views/Admin/UsersIndex.js! System.NullReferenceException: 未??象引用?置到?象的?例。
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+DEBUG 2020-03-07 09:50:41,222 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 65a2843e-6665-49af-8a53-db3b29b07d1d
+WARN  2020-03-07 09:50:41,276 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,282 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,282 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:41,283 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:50:41,689 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"094def7d-f8bc-4fd6-ba6f-9e21e1ae8144","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:50:41.6899763+08:00","Properties":{}}
+DEBUG 2020-03-07 09:50:41,694 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 094def7d-f8bc-4fd6-ba6f-9e21e1ae8144
+WARN  2020-03-07 09:50:46,809 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,809 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,809 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'FullName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,810 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'EmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,810 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,810 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Actions' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,810 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,811 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,811 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewUser' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,811 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,811 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,812 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Surname' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,812 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'EmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,812 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,812 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,813 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,813 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,813 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,878 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,887 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,890 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,890 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,891 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:50:46,923 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 094def7d-f8bc-4fd6-ba6f-9e21e1ae8144
+WARN  2020-03-07 09:50:46,961 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,965 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,966 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:50:46,966 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:50:47,360 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"973a3b26-6a90-4ba7-b3e2-f66d5b44ec49","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:50:47.3601625+08:00","Properties":{}}
+DEBUG 2020-03-07 09:50:47,367 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 973a3b26-6a90-4ba7-b3e2-f66d5b44ec49
+DEBUG 2020-03-07 09:56:04,942 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-07 09:56:04,965 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-03-07 09:56:04,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Web.Fun2RepairMVCWebModule, Fun2RepairMVC.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCDataModule, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCCoreModule, Fun2RepairMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCApplicationModule, Fun2RepairMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Api.Fun2RepairMVCWebApiModule, Fun2RepairMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,980 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:04,984 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-03-07 09:56:05,356 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:56:05,356 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:56:05,356 [1    ] o.Configuration.LanguageManagementConfig - Converted Fun2RepairMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:56:05,356 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:56:05,885 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Fun2RepairMVC.EntityFramework.Fun2RepairMVCDbContext, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:56:09,786 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-07 09:56:09,931 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-07 09:56:10,004 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-07 09:56:10,039 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Fun2RepairMVC
+DEBUG 2020-03-07 09:56:10,083 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-07 09:56:10,321 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-07 09:56:10,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 38 classes define auto mapping attributes
+DEBUG 2020-03-07 09:56:10,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-07 09:56:10,417 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-07 09:56:10,418 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.CreateUserDto
+DEBUG 2020-03-07 09:56:10,418 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UpdateUserDto
+DEBUG 2020-03-07 09:56:10,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UserDto
+DEBUG 2020-03-07 09:56:10,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Roles.Dto.PermissionDto
+DEBUG 2020-03-07 09:56:10,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-07 09:56:10,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-03-07 09:56:10,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.TenantDto
+DEBUG 2020-03-07 09:56:10,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupListDto
+DEBUG 2020-03-07 09:56:10,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupTranslationDto
+DEBUG 2020-03-07 09:56:10,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionDto
+DEBUG 2020-03-07 09:56:10,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionListDto
+DEBUG 2020-03-07 09:56:10,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionTranslationDto
+DEBUG 2020-03-07 09:56:10,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterDto
+DEBUG 2020-03-07 09:56:10,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterListDto
+DEBUG 2020-03-07 09:56:10,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterTranslationDto
+DEBUG 2020-03-07 09:56:10,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleDto
+DEBUG 2020-03-07 09:56:10,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleTranslationDto
+DEBUG 2020-03-07 09:56:10,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityDto
+DEBUG 2020-03-07 09:56:10,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityListDto
+DEBUG 2020-03-07 09:56:10,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityTranslationDto
+DEBUG 2020-03-07 09:56:10,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationDto
+DEBUG 2020-03-07 09:56:10,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationListDto
+DEBUG 2020-03-07 09:56:10,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationTranslationDto
+DEBUG 2020-03-07 09:56:10,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterDto
+DEBUG 2020-03-07 09:56:10,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterListDto
+DEBUG 2020-03-07 09:56:10,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterTranslationDto
+DEBUG 2020-03-07 09:56:10,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceDto
+DEBUG 2020-03-07 09:56:10,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceListDto
+DEBUG 2020-03-07 09:56:10,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceTranslationDto
+DEBUG 2020-03-07 09:56:10,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownDto
+DEBUG 2020-03-07 09:56:10,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownListDto
+DEBUG 2020-03-07 09:56:10,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarDto
+DEBUG 2020-03-07 09:56:10,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarListDto
+DEBUG 2020-03-07 09:56:10,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarTranslationDto
+DEBUG 2020-03-07 09:56:10,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantChangeViewModel
+DEBUG 2020-03-07 09:56:10,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-03-07 09:56:14,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-03-07 09:56:14,316 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-03-07 09:56:14,317 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-03-07 09:56:14,319 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-03-07 09:56:14,320 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-03-07 09:56:14,322 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2020-03-07 09:56:30,856 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:56:30,864 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:56:30,865 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:56:30,867 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:56:30,868 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:12,905 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:12,906 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:12,906 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:12,907 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:12,907 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:12,921 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,687 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,688 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,688 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,688 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,688 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,689 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,772 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,777 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,777 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,778 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:17,778 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,416 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,433 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,436 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,436 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,437 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,437 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,850 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,853 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,854 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,855 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:36,855 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:59:37,537 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cbf1cdad-25df-417f-a863-ed148d6f7f9f","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:59:37.5298754+08:00","Properties":{}}
+DEBUG 2020-03-07 09:59:37,576 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cbf1cdad-25df-417f-a863-ed148d6f7f9f
+WARN  2020-03-07 09:59:41,114 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:41,114 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:41,114 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:41,115 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:41,115 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,371 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,372 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'RoleName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,372 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'DisplayName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,372 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Actions' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,373 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,373 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,373 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewRole' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,373 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'RoleName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,374 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'DisplayName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,374 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,374 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,438 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,448 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,451 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,452 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,453 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,453 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:59:43,532 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cbf1cdad-25df-417f-a863-ed148d6f7f9f
+WARN  2020-03-07 09:59:43,544 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,547 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,547 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,548 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:43,548 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:59:43,926 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2875e4de-7c80-40ab-ad59-2a1761ee3150","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:59:43.9260392+08:00","Properties":{}}
+DEBUG 2020-03-07 09:59:43,933 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2875e4de-7c80-40ab-ad59-2a1761ee3150
+WARN  2020-03-07 09:59:49,058 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,058 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,059 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,059 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,059 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,060 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,060 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewTenant' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,060 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,060 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,060 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'DatabaseConnectionString' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,061 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Optional' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,061 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminEmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,061 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,062 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'DefaultPasswordIs' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,062 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,062 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,130 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,141 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,144 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,144 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,145 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,145 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:59:49,174 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2875e4de-7c80-40ab-ad59-2a1761ee3150
+WARN  2020-03-07 09:59:49,214 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,216 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,217 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,218 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:59:49,218 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:59:49,607 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6de86094-187e-4b6c-88db-010aadb0ef2d","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:59:49.6078588+08:00","Properties":{}}
+DEBUG 2020-03-07 09:59:49,614 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6de86094-187e-4b6c-88db-010aadb0ef2d
+WARN  2020-03-07 10:00:00,881 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,882 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,882 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,882 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,882 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,882 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,883 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewTenant' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,883 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'TenancyName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,883 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,883 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'DatabaseConnectionString' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,884 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Optional' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,884 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminEmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,884 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,884 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'DefaultPasswordIs' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,885 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,885 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,952 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,962 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,965 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,965 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,966 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:00,966 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 10:00:00,992 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6de86094-187e-4b6c-88db-010aadb0ef2d
+WARN  2020-03-07 10:00:01,026 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:01,029 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:01,029 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:01,029 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:01,030 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 10:00:01,412 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b310a81a-2f87-4183-9e47-2ad517771909","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T10:00:01.4124052+08:00","Properties":{}}
+DEBUG 2020-03-07 10:00:01,418 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b310a81a-2f87-4183-9e47-2ad517771909
+WARN  2020-03-07 10:00:08,091 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,091 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,092 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'FullName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,092 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'EmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,092 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,092 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Actions' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,093 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Edit' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,093 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Delete' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,094 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreateNewUser' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,094 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserName' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,094 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Name' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,094 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Surname' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,095 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'EmailAddress' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,095 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,095 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'ConfirmPassword' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,095 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'IsActive' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,096 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Cancel' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,096 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Save' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,168 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,177 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,180 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,180 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,181 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,181 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 10:00:08,205 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b310a81a-2f87-4183-9e47-2ad517771909
+WARN  2020-03-07 10:00:08,240 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,243 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,243 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,244 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Roles' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 10:00:08,244 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 10:00:08,628 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0bf15c02-5c5e-4565-857a-6c74fb9b0f1e","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T10:00:08.6283768+08:00","Properties":{}}
+DEBUG 2020-03-07 10:00:08,634 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0bf15c02-5c5e-4565-857a-6c74fb9b0f1e

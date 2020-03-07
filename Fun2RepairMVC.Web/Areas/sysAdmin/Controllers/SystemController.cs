@@ -36,7 +36,7 @@ namespace Fun2RepairMVC.Web.Areas.sysAdmin.Controllers
         }
 
         #region user management     
-        [AbpMvcAuthorize(PermissionNames.System_Tenants)]
+        [AbpMvcAuthorize(PermissionNames.System_Users)]
         public async Task<ActionResult> Users()
         {
             var users = (await _userAppService.GetAllAsync(new PagedResultRequestDto { MaxResultCount = int.MaxValue })).Items; //Paging not implemented yet
@@ -46,7 +46,7 @@ namespace Fun2RepairMVC.Web.Areas.sysAdmin.Controllers
                 Users = users,
                 Roles = roles
             };
-            return View("UserIndex",model);
+            return View("UsersIndex",model);
         }
 
         public async Task<ActionResult> EditUserModal(long userId)
@@ -63,7 +63,7 @@ namespace Fun2RepairMVC.Web.Areas.sysAdmin.Controllers
         #endregion
 
         #region role management
-        [AbpMvcAuthorize(PermissionNames.System_Tenants)]
+        [AbpMvcAuthorize(PermissionNames.System_Roles)]
         public async Task<ActionResult> Roles()
         {
             var roles = (await _roleAppService.GetAllAsync(new PagedAndSortedResultRequestDto())).Items;

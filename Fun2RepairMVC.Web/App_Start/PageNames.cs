@@ -2,10 +2,10 @@ namespace Fun2RepairMVC.Web
 {
     public class PageNames
     {
-        public const string Home = "Home";
-        public const string About = "About";
-        public const string Tenants = "Tenants";
-        public const string Users = "Users";
-        public const string Roles = "Roles";
+        public const string Pages_System = "System";
+        public const string System_Tenants = "System.Tenants";
+        public const string System_Roles = "System_Roles";
+        public const string System_Users = "System.Users";
+        public const string System_Parameters = "System.Parameters";
     }
 }

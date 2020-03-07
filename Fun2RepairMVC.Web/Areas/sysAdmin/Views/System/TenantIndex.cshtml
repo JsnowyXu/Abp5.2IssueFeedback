@@ -4,11 +4,13 @@
 @using Fun2RepairMVC.MultiTenancy
 @model Abp.Application.Services.Dto.PagedResultDto<Fun2RepairMVC.MultiTenancy.Dto.TenantDto>
 @{
-    ViewBag.ActiveMenu = PageNames.Tenants; //The menu item will be active for this page.
+    ViewBag.ActiveMenu = PageNames.System_Tenants; //The menu item will be active for this page.
 }
 @section scripts
 {
-    @Html.IncludeScript("~/Views/Tenants/Index.js")
+    @Html.IncludeScript("~/Areas/sysAdmin/Views/System/TenantIndex.js")
+
+
 }
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

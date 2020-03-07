@@ -23,7 +23,7 @@
 
             e.preventDefault();
             abp.ajax({
-                url: abp.appPath + 'Tenants/EditTenantModal?tenantId=' + tenantId,
+                url: abp.appPath + 'sysAdmin/System/Tenants/EditTenantModal?tenantId=' + tenantId,
                 type: 'POST',
                 dataType: 'html',
                 success: function (content) {
