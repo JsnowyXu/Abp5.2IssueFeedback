@@ -16,7 +16,9 @@ namespace Fun2RepairMVC.Authorization
         }
         public override void SetPermissions(IPermissionDefinitionContext context)
         {
+            //for test the error
 
+            var test = _functionManager.GetAll();
             ////// 需要權限驗證的所有有效菜單
             //List<AbpFunction> functions = _functionManager.GetPermissons();
             ////獲取權限列表
@@ -41,35 +43,6 @@ namespace Fun2RepairMVC.Authorization
 
 
             //}
-            context.CreatePermission(PermissionNames.Pages_BasicInfo, L(PermissionNames.Pages_BasicInfo))
-              .CreateChildPermission(PermissionNames.BasicInfo_SMSTemplate, L(PermissionNames.BasicInfo_SMSTemplate))
-               .CreateChildPermission(PermissionNames.BasicInfo_MailTemplate, L(PermissionNames.BasicInfo_MailTemplate))
-                .CreateChildPermission(PermissionNames.BasicInfo_NationMng, L(PermissionNames.BasicInfo_NationMng))
-                 .CreateChildPermission(PermissionNames.BasicInfo_ProvinceMng, L(PermissionNames.BasicInfo_ProvinceMng))
-                  .CreateChildPermission(PermissionNames.BasicInfo_CityMng, L(PermissionNames.BasicInfo_CityMng))
-                   .CreateChildPermission(PermissionNames.BasicInfo_TownMng, L(PermissionNames.BasicInfo_TownMng));
-
-            context.CreatePermission(PermissionNames.Pages_RepairInfo, L(PermissionNames.Pages_RepairInfo))
-               .CreateChildPermission(PermissionNames.RepairInfo_FaultMng, L(PermissionNames.RepairInfo_FaultMng))
-                .CreateChildPermission(PermissionNames.RepairInfo_RepairMng, L(PermissionNames.RepairInfo_RepairMng))
-                 .CreateChildPermission(PermissionNames.RepairInfo_ModelMng, L(PermissionNames.RepairInfo_ModelMng))
-                  .CreateChildPermission(PermissionNames.RepairInfo_MessageMng, L(PermissionNames.RepairInfo_MessageMng));
-
-            context.CreatePermission(PermissionNames.Pages_VIPInfo, L(PermissionNames.Pages_VIPInfo))
-             .CreateChildPermission(PermissionNames.VIPInfo_Customer, L(PermissionNames.VIPInfo_Customer))
-              .CreateChildPermission(PermissionNames.VIPInfo_CustomerGroup, L(PermissionNames.VIPInfo_CustomerGroup))
-               .CreateChildPermission(PermissionNames.VIPInfo_CustomerSetting, L(PermissionNames.VIPInfo_CustomerSetting));
-
-            context.CreatePermission(PermissionNames.Pages_SiteInfo, L(PermissionNames.Pages_SiteInfo))
-               .CreateChildPermission(PermissionNames.SiteInfo_BasicSetting, L(PermissionNames.SiteInfo_BasicSetting))
-                .CreateChildPermission(PermissionNames.SiteInfo_Column, L(PermissionNames.SiteInfo_Column))
-                 .CreateChildPermission(PermissionNames.SiteInfo_Banner, L(PermissionNames.SiteInfo_Banner))
-                  .CreateChildPermission(PermissionNames.SiteInfo_Module, L(PermissionNames.SiteInfo_Module))
-                   .CreateChildPermission(PermissionNames.SiteInfo_ServiceSetting, L(PermissionNames.SiteInfo_ServiceSetting))
-                   .CreateChildPermission(PermissionNames.SiteInfo_Index, L(PermissionNames.SiteInfo_Index))
-                   .CreateChildPermission(PermissionNames.SiteInfo_Footer, L(PermissionNames.SiteInfo_Footer))
-                  .CreateChildPermission(PermissionNames.SiteInfo_ContactUsSetting, L(PermissionNames.SiteInfo_ContactUsSetting))
-                 .CreateChildPermission(PermissionNames.SiteInfo_AboutUsSetting, L(PermissionNames.SiteInfo_AboutUsSetting));
 
             context.CreatePermission(PermissionNames.Pages_System, L(PermissionNames.Pages_System))
                 .CreateChildPermission(PermissionNames.System_Tenants, L(PermissionNames.System_Tenants))
@@ -78,10 +51,6 @@ namespace Fun2RepairMVC.Authorization
                    .CreateChildPermission(PermissionNames.System_Parameters, L(PermissionNames.System_Parameters))
                     .CreateChildPermission(PermissionNames.System_AuditLogs, L(PermissionNames.System_AuditLogs));
 
-            context.CreatePermission(PermissionNames.Pages_Developer, L(PermissionNames.Pages_Developer))
-                .CreateChildPermission(PermissionNames.Developer_AppSetting, L(PermissionNames.Developer_AppSetting))
-                 .CreateChildPermission(PermissionNames.Developer_Function, L(PermissionNames.Developer_Function))
-                  .CreateChildPermission(PermissionNames.Developer_Language, L(PermissionNames.Developer_Language));
         }
 
 
