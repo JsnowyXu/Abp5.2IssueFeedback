@@ -2793,3 +2793,178 @@ System.Web.HttpException (0x80004005): 在此內容中無法使用要求
    於 Abp.AbpBootstrapper.Initialize()
 DEBUG 2020-03-06 14:28:05,473 [17   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
 DEBUG 2020-03-06 14:28:05,476 [17   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-03-07 09:20:08,478 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-07 09:20:08,497 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-03-07 09:20:08,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Web.Fun2RepairMVCWebModule, Fun2RepairMVC.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCDataModule, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCCoreModule, Fun2RepairMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCApplicationModule, Fun2RepairMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Api.Fun2RepairMVCWebApiModule, Fun2RepairMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:20:08,512 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-03-07 09:20:08,833 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:20:08,833 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:20:08,833 [1    ] o.Configuration.LanguageManagementConfig - Converted Fun2RepairMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:20:08,833 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:20:09,299 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Fun2RepairMVC.EntityFramework.Fun2RepairMVCDbContext, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+WARN  2020-03-07 09:20:16,416 [1    ] HttpRequestEntityChangeSetReasonProvider - HttpContext.Request access when it is not suppose to
+System.Web.HttpException (0x80004005): 在此內容中無法使用要求
+   於 System.Web.HttpContext.get_Request()
+   於 Abp.Web.EntityHistory.HttpRequestEntityChangeSetReasonProvider.get_Reason()
+FATAL 2020-03-07 09:20:16,492 [1    ] Abp.AbpBootstrapper                      - System.Web.HttpException (0x80004005): 在此內容中無法使用要求
+   於 System.Web.HttpContext.get_Request()
+   於 System.Web.HttpContextWrapper.get_Request()
+   於 Abp.Auditing.WebClientInfoProvider.GetBrowserInfo()
+   於 Abp.Auditing.WebClientInfoProvider.get_BrowserInfo()
+   於 Abp.EntityHistory.EntityHistoryHelper.CreateEntityChangeSet(DbContext context)
+   於 Abp.Zero.EntityFramework.AbpZeroCommonDbContext`2.SaveChanges()
+   於 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext)
+   於 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges()
+   於 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow()
+   於 Abp.Domain.Uow.UnitOfWorkBase.Complete()
+   於 Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   於 Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   於 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   於 Castle.Proxies.IRepository`1Proxy_1.GetAll()
+   於 Abp.Authorization.Functions.AbpFunctionManager.GetAll()
+   於 Fun2RepairMVC.Authorization.Fun2RepairMVCAuthorizationProvider.SetPermissions(IPermissionDefinitionContext context) 於 E:\Projects\StudySpace\Abp\Fun2RepairMVC\5.2.0\src\Fun2RepairMVC.Core\BackEnd\Authorization\Fun2RepairMVCAuthorizationProvider.cs: 行 21
+   於 Abp.Authorization.PermissionManager.Initialize()
+   於 Abp.AbpKernelModule.PostInitialize()
+   於 Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   於 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   於 Abp.Modules.AbpModuleManager.StartModules()
+   於 Abp.AbpBootstrapper.Initialize()
+System.Web.HttpException (0x80004005): 在此內容中無法使用要求
+   於 System.Web.HttpContext.get_Request()
+   於 System.Web.HttpContextWrapper.get_Request()
+   於 Abp.Auditing.WebClientInfoProvider.GetBrowserInfo()
+   於 Abp.Auditing.WebClientInfoProvider.get_BrowserInfo()
+   於 Abp.EntityHistory.EntityHistoryHelper.CreateEntityChangeSet(DbContext context)
+   於 Abp.Zero.EntityFramework.AbpZeroCommonDbContext`2.SaveChanges()
+   於 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext)
+   於 Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges()
+   於 Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow()
+   於 Abp.Domain.Uow.UnitOfWorkBase.Complete()
+   於 Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   於 Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   於 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   於 Castle.Proxies.IRepository`1Proxy_1.GetAll()
+   於 Abp.Authorization.Functions.AbpFunctionManager.GetAll()
+   於 Fun2RepairMVC.Authorization.Fun2RepairMVCAuthorizationProvider.SetPermissions(IPermissionDefinitionContext context) 於 E:\Projects\StudySpace\Abp\Fun2RepairMVC\5.2.0\src\Fun2RepairMVC.Core\BackEnd\Authorization\Fun2RepairMVCAuthorizationProvider.cs: 行 21
+   於 Abp.Authorization.PermissionManager.Initialize()
+   於 Abp.AbpKernelModule.PostInitialize()
+   於 Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   於 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   於 Abp.Modules.AbpModuleManager.StartModules()
+   於 Abp.AbpBootstrapper.Initialize()
+DEBUG 2020-03-07 09:21:58,683 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-07 09:21:58,716 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2020-03-07 09:21:58,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Web.Fun2RepairMVCWebModule, Fun2RepairMVC.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCDataModule, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCCoreModule, Fun2RepairMVC.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Fun2RepairMVCApplicationModule, Fun2RepairMVC.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fun2RepairMVC.Api.Fun2RepairMVCWebApiModule, Fun2RepairMVC.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=5.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:21:58,735 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2020-03-07 09:21:59,155 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:21:59,156 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:21:59,156 [1    ] o.Configuration.LanguageManagementConfig - Converted Fun2RepairMVC (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:21:59,156 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-07 09:21:59,763 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Fun2RepairMVC.EntityFramework.Fun2RepairMVCDbContext, Fun2RepairMVC.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-07 09:22:04,317 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-07 09:22:04,458 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-07 09:22:04,527 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-07 09:22:04,563 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Fun2RepairMVC
+DEBUG 2020-03-07 09:22:04,609 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-07 09:22:04,828 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-07 09:22:04,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 38 classes define auto mapping attributes
+DEBUG 2020-03-07 09:22:04,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-07 09:22:04,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-07 09:22:04,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.CreateUserDto
+DEBUG 2020-03-07 09:22:04,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UpdateUserDto
+DEBUG 2020-03-07 09:22:04,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Users.Dto.UserDto
+DEBUG 2020-03-07 09:22:04,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Roles.Dto.PermissionDto
+DEBUG 2020-03-07 09:22:04,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-07 09:22:04,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.EditTenantDto
+DEBUG 2020-03-07 09:22:04,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.MultiTenancy.Dto.TenantDto
+DEBUG 2020-03-07 09:22:04,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupListDto
+DEBUG 2020-03-07 09:22:04,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.Customers.CustomerGroupTranslationDto
+DEBUG 2020-03-07 09:22:04,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionDto
+DEBUG 2020-03-07 09:22:04,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionListDto
+DEBUG 2020-03-07 09:22:04,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsOptionTranslationDto
+DEBUG 2020-03-07 09:22:04,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterDto
+DEBUG 2020-03-07 09:22:04,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterListDto
+DEBUG 2020-03-07 09:22:04,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.CmsParameterTranslationDto
+DEBUG 2020-03-07 09:22:04,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleDto
+DEBUG 2020-03-07 09:22:04,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.FrontEnd.CMS.ModuleTranslationDto
+DEBUG 2020-03-07 09:22:04,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityDto
+DEBUG 2020-03-07 09:22:04,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityListDto
+DEBUG 2020-03-07 09:22:04,919 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.CityTranslationDto
+DEBUG 2020-03-07 09:22:04,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationDto
+DEBUG 2020-03-07 09:22:04,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationListDto
+DEBUG 2020-03-07 09:22:04,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.NationTranslationDto
+DEBUG 2020-03-07 09:22:04,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterDto
+DEBUG 2020-03-07 09:22:04,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterListDto
+DEBUG 2020-03-07 09:22:04,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ParameterTranslationDto
+DEBUG 2020-03-07 09:22:04,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceDto
+DEBUG 2020-03-07 09:22:04,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceListDto
+DEBUG 2020-03-07 09:22:04,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.ProvinceTranslationDto
+DEBUG 2020-03-07 09:22:04,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownDto
+DEBUG 2020-03-07 09:22:04,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.PublicCode.TownListDto
+DEBUG 2020-03-07 09:22:04,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarDto
+DEBUG 2020-03-07 09:22:04,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarListDto
+DEBUG 2020-03-07 09:22:04,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Common.Extras.CalendarTranslationDto
+DEBUG 2020-03-07 09:22:04,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantChangeViewModel
+DEBUG 2020-03-07 09:22:04,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fun2RepairMVC.Web.Areas.sysAdmin.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2020-03-07 09:22:09,293 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2020-03-07 09:22:09,294 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2020-03-07 09:22:09,295 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2020-03-07 09:22:09,296 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2020-03-07 09:22:09,297 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2020-03-07 09:22:09,300 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Fun2RepairMVC.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2020-03-07 09:22:29,779 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,779 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,781 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,781 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'UserNameOrEmail' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,781 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,781 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Password' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,781 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,782 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'RememberMe' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,782 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,782 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'LogIn' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,800 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:29,800 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Register' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:45,995 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Logout' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:46,458 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:46,462 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:46,462 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:46,463 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:47,091 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:47,096 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Tenants' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:47,097 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Users' in localization source 'Fun2RepairMVC'!
+WARN  2020-03-07 09:22:47,097 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'System.Parameters' in localization source 'Fun2RepairMVC'!
+DEBUG 2020-03-07 09:22:47,878 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ab839f54-ec81-474a-8474-13956e9e0b09","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2020-03-07T09:22:47.8706311+08:00","Properties":{}}
+DEBUG 2020-03-07 09:22:47,919 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ab839f54-ec81-474a-8474-13956e9e0b09
+DEBUG 2020-03-07 09:22:50,839 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ab839f54-ec81-474a-8474-13956e9e0b09

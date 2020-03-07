@@ -18,7 +18,8 @@ namespace Fun2RepairMVC.Authorization
         {
             //for test the error
 
-            var test = _functionManager.GetAll();
+            //var test = _functionManager.GetAll();
+
             ////// 需要權限驗證的所有有效菜單
             //List<AbpFunction> functions = _functionManager.GetPermissons();
             ////獲取權限列表
@@ -48,8 +49,7 @@ namespace Fun2RepairMVC.Authorization
                 .CreateChildPermission(PermissionNames.System_Tenants, L(PermissionNames.System_Tenants))
                  .CreateChildPermission(PermissionNames.System_Users, L(PermissionNames.System_Users))
                   .CreateChildPermission(PermissionNames.System_Roles, L(PermissionNames.System_Roles))
-                   .CreateChildPermission(PermissionNames.System_Parameters, L(PermissionNames.System_Parameters))
-                    .CreateChildPermission(PermissionNames.System_AuditLogs, L(PermissionNames.System_AuditLogs));
+                   .CreateChildPermission(PermissionNames.System_Parameters, L(PermissionNames.System_Parameters));
 
         }
 

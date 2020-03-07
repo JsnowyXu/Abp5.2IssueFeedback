@@ -465,6 +465,12 @@
     <Content Include="Areas\sysAdmin\Views\Account\_TenantChangeModal.js" />
     <Content Include="Areas\sysAdmin\Views\Shared\_Layout.css" />
     <Content Include="Areas\sysAdmin\Views\Shared\_Layout.js" />
+    <Content Include="Areas\sysAdmin\Views\System\RoleIndex.js" />
+    <Content Include="Areas\sysAdmin\Views\System\TenantIndex.js" />
+    <Content Include="Areas\sysAdmin\Views\System\UsersIndex.js" />
+    <Content Include="Areas\sysAdmin\Views\System\_EditRoleModal.js" />
+    <Content Include="Areas\sysAdmin\Views\System\_EditTenantModal.js" />
+    <Content Include="Areas\sysAdmin\Views\System\_EditUserModal.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -2814,6 +2820,12 @@
     <Content Include="Areas\sysAdmin\Views\Account\_TenantChange.cshtml" />
     <Content Include="Areas\sysAdmin\Views\Account\_TenantChangeModal.cshtml" />
     <Content Include="Areas\sysAdmin\Views\Account\_ViewStart.cshtml" />
+    <Content Include="Areas\sysAdmin\Views\System\RoleIndex.cshtml" />
+    <Content Include="Areas\sysAdmin\Views\System\TenantIndex.cshtml" />
+    <Content Include="Areas\sysAdmin\Views\System\UsersIndex.cshtml" />
+    <Content Include="Areas\sysAdmin\Views\System\_EditRoleModal.cshtml" />
+    <Content Include="Areas\sysAdmin\Views\System\_EditTenantModal.cshtml" />
+    <Content Include="Areas\sysAdmin\Views\System\_EditUserModal.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
@@ -3109,7 +3121,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\sysAdmin\Views\Admin\" />
     <Folder Include="Areas\sysAdmin\Views\Basic\" />
-    <Folder Include="Areas\sysAdmin\Views\System\" />
     <Folder Include="Views\Layout\" />
   </ItemGroup>
   <ItemGroup>

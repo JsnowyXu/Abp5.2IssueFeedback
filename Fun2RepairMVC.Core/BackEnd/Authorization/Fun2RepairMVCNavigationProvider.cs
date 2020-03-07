@@ -21,7 +21,7 @@ namespace Fun2RepairMVC.Authorization
         {
             // here will throw the error. 
            // if you want to run it ,please delete the below code
-            var test = _functionManager.GetAll();
+           // var test = _functionManager.GetAll();
 
 
             context.Manager.MainMenu
