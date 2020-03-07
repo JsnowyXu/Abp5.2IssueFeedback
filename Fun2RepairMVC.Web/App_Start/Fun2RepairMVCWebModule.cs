@@ -34,8 +34,9 @@ namespace Fun2RepairMVC.Web
             //Enable database based localization
             Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
 
-            //Configure navigation/menu
-            Configuration.Navigation.Providers.Add<Fun2RepairMVCFrontNavigationProvider>();
+            //Configure navigation/menu  
+
+            //Configuration.Navigation.Providers.Add<Fun2RepairMVCFrontNavigationProvider>();
 
             //Configure Hangfire - ENABLE TO USE HANGFIRE INSTEAD OF DEFAULT JOB MANAGER
             //Configuration.BackgroundJobs.UseHangfire(configuration =>
